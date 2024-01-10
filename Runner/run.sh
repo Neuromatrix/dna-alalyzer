@@ -9,7 +9,7 @@ fi
 option="$1"
 
 # Check if the option is valid
-if [ "$option" != "-merge" ] && [ "$option" != "-analyze" ]; then
+if [ "$option" != "-merge" ] && [ "$option" != "-analyze" ] && [ "$option" != "-smerge" ]; then
     echo "Invalid option. Use <-merge|-analyze>"
     exit 1
 fi

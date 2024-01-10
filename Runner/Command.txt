@@ -1,2 +1,1 @@
-../Data/SampleFile1.txt
-../Data/SampleFile2.txt
+../Data
